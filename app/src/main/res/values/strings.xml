@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="dafFil">Daftar Film 2023</string>
+    <string name="judul">Judul</string>
+    <string name="desk">Deskripsi</string>
+    <string name="image_description">Description of your image</string>
+    <string name="judulsher">Petualangan Sherina 2</string>
+    <string name="jam">MUSICAL . 2h6m</string>
+    <string name="lokasi">2023  |  SU  |  IDN</string>
+    <string name="direc">DIRECTOR:</string>
+    <string name="namadirec">Riri Riza</string>
+    <string name="crew">CAST AND CREW:</string>
+    <string name="anggota">Sherina Munaf, Derby Romero, Isyana Saravasti,
+Kelly Tandiono, Ardit Erwandha</string>
+    <string name="syn">SYNOPSIS:</string>
+    <string name="deskrip">Bahasa Indonesia - Sherina dan Sadam, dua teman kecil yang lama
+terpisah, bertemu kembali di Kalimantan untuk pelepasliaran orang utan.</string>
+    <string name="beli">BELI TIKET</string>
+</resources>

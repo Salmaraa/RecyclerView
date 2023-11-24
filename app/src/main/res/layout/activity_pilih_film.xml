@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:id="@+id/poster_film"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image_description">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/judul_film"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/judul"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/poster_film"
+        android:layout_marginStart="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/deskripsi_film"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desk"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/poster_film"
+        android:layout_below="@id/judul_film"
+        android:layout_marginStart="10dp">
+    </TextView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<!-- res/drawable/button_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- tampilan awal-->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- berubah ketika diklik-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#808080" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
